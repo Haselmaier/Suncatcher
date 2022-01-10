@@ -5,7 +5,7 @@
   <li>Suncatcher will charge the car at night (from the grid) to a minimum level - as specified by the user.  The intent/assumption is that a minimum charge is desired to be had at the end of the day in case of unexpected emergencies.  (e.g. drive to the hospital in the middle of the night).  The author's use case causes this to be set to 50%.
   <li>Suncatcher has implemented the capability to stop car charging during the day when a certain battery percentage has been reached.  Ex:  The author rarely needs more than 15% of battery for normal, daily driving.  Suncatcher will stop charging during the day when battery charge is 15% higher than the minimum required night time charge.  The presumption is any amount needed over what is needed for daily driving is best sold back to the utility for bill credit.  Therefore, the author's use case causes this setting to be 65%.
   <li>A detailed log is written every 10 minutes to /home/pi/Desktop/Tesla/Logs - with each day (starting at 5:00am) having it's own log file.
-    
+</ul>  
 # Suncatcher Requirements
 <ul>
   <li>Eagle-200 device from Rainforest Automation.  Connects wirelessly (via zigbee) to consumer's smart electric meter.</li>
