@@ -12,7 +12,7 @@
 <ul>
   <li>Eagle-200 energy gateway from Rainforest Automation.  Connects wirelessly (via zigbee) to consumer's smart electric meter.  Connecting the Eagle-200 with the smart meter reuires coordination with the utility.  The utility goes through a procurement process to permit the meter to connect with the energy gateway.  This process can take 3-8 days total.</li>
   <li>Device that can run Python. (PC, Linux system, Raspberry Pi)</li>
-  <li>Solaredge solar panel inverter.  Having this inverter isn't <b>really</b> a requirement.  The software is set up to capture current solar panel output - which gets written to the log file every 10 minutes.  This information isn't essential to effective Tesla charging control, but it is interesting information to have in order to track solar production along with charging rate.  If the user does not have a Solaredge inverter call to the routine can simply be commented out.
+  <li>Solaredge solar panel inverter.  Having this inverter isn't <b>really</b> a requirement.  The software is set up to capture current solar panel output - which gets written to the log file every 10 minutes.  This information isn't essential to effective Tesla charging control, but it is interesting information to have in order to track solar production along with charging rate.  If the user does not have a Solaredge inverter calls to the 'solar' function can simply be commented out.
 </ul>
 <b>Configuration (assumes Raspberry Pi)</b>
 <ul>
