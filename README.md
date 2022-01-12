@@ -18,7 +18,7 @@ Configuration (assumes Raspberry Pi)
   <li>Create directory:  /home/pi/Desktop/Tesla
   <li>Create directory:  /home/pi/Desktop/Tesla/Logs
   <li>Install Python packages:  teslapy, ast, requests
-  <li>Place commands.xml in /home/pi/Desktop/Tesla
+  <li>Place commands.xml in /home/pi/Desktop/Tesla. This file contains the commands needed for the Eagle-200 energy gateway.
   <li>Place Suncatcher source in /home/pi/Desktop/Tesla
   <li>Make necessary changes to Suncatcher source:
     <ul>
