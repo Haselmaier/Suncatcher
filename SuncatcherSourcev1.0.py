@@ -169,8 +169,8 @@ def write_log():
 #   Adjustable Program Settings
 min_night_charge = 50       # Battery % car is to be charged to at night - using energy from grid.
 max_day_battery_level = 65  # Maximum battery % to be charged to using solar during the day. 
-lat_home = 40.5069          # Car's latitude when parked at user's home
-long_home = -105.0854       # Car's longitude when parked at user's home
+lat_home = xx.xxxx          # Car's latitude when parked at user's home
+long_home = yyy.yyyy        # Car's longitude when parked at user's home
 peak_start = 17             # Hour peak electric pricing begins (24 hour clock)
 peak_end = 21               # Hour peak electric pricing ends (24 hour clock)
 pull_threshold = .40        # Max amount (kWh) that is willing to be pulled from the grid without changing car charging rate
