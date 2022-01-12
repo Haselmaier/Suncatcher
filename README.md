@@ -10,7 +10,7 @@ Capabilities Summary
 </ul>  
 Requirements
 <ul>
-  <li>Eagle-200 device from Rainforest Automation.  Connects wirelessly (via zigbee) to consumer's smart electric meter.</li>
+  <li>Eagle-200 energy gateway from Rainforest Automation.  Connects wirelessly (via zigbee) to consumer's smart electric meter.</li>
   <li>Device that can run Python. (PC, Linux system, Raspberry Pi)</li>
 </ul>
 Configuration (assumes Raspberry Pi)
