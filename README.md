@@ -10,7 +10,7 @@
 </ul>  
 <b>Requirements</b>
 <ul>
-  <li>Eagle-200 energy gateway from Rainforest Automation.  Connects wirelessly (via zigbee) to consumer's smart electric meter.</li>
+  <li>Eagle-200 energy gateway from Rainforest Automation.  Connects wirelessly (via zigbee) to consumer's smart electric meter.  Connecting the Eagle-200 with the smart meter reuires coordination with the utility.  The utility goes through a procurement process to permit the meter to connect with the energy gateway.  This process can take 3-8 days total.</li>
   <li>Device that can run Python. (PC, Linux system, Raspberry Pi)</li>
 </ul>
 <b>Configuration (assumes Raspberry Pi)</b>
