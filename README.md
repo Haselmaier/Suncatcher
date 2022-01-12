@@ -36,11 +36,15 @@
       <li>Line 175:  Hour peak electric pricing ends.
       <li>Line 176:  Minimum amount of electricity that is being pulled from the grid to cause a re-calculation of car charging rate to be done.  (pulling less than this amount will cause the car charging rate to not be changed.)
       <li>Line 177:  Minimum amount of electricity that is being pushed to the grid to cause a re-calculation of car charging rate to be done.  (pushing less than this amount will cause the car charging rate to not be changed.)
-        </ul>
-        </ul>
+      </ul>
+</ul>
 
 <b>First Use</b>     
 The Tesla API requires authorization tokens in order to get information from the car as well as change car settings.  When the program is first run a web browser will be launched with fields to enter Tesla account credentials (email and password).  The resulting web page will have an error displayed.  However the URL in the browser needs to be copied in its entirety and pasted into the field presented by the software.  The resulting tokens will be written to a file.  This login sequence will only need to be done the first time the software is run.  
+        
+<b>Stability / Bugs</b>
+The code is reasonably stable.  Error checking has not been implemented in some areas (such as getting status from the Eagle-200) which can cause the software to crash.  It needs to be monitored to see if it has crashed.  No auto-restart capability has yet been implemented in the event of a crash.
+        
         
     
 
