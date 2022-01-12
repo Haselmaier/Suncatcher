@@ -38,7 +38,9 @@ Configuration (assumes Raspberry Pi)
       <li>Line 177:  Minimum amount of electricity that is being pushed to the grid to cause a re-calculation of car charging rate to be done.  (pushing less than this amount will cause the car charging rate to not be changed.)
         </ul>
         </ul>
+
 First Use
+        
 The Tesla API requires authorization tokens in order to get information from the car as well as change car settings.  When the program is first run a web browser will be launched with fields to enter Tesla account credentials (email and password).  The resulting web page will have an error displayed.  However the URL in the browser needs to be copied in its entirety and pasted into the field presented by the software.  The resulting tokens will be written to a file.  This login sequence will only need to be done the first time the software is run.  
         
     
