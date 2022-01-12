@@ -8,12 +8,12 @@
   <li>Suncatcher has implemented the capability to stop car charging during the day when a certain battery percentage has been reached.  Ex:  The author rarely needs more than 15% of battery for normal, daily driving.  Suncatcher will stop charging during the day when battery charge is 15% higher than the minimum required night time charge.  The presumption is any amount needed over what is needed for daily driving is best sold back to the utility for bill credit.  
   <li>A detailed log is written every 10 minutes to /home/pi/Desktop/Tesla/Logs - with each day (starting at 5:00am) having it's own log file.
 </ul>  
-Requirements
+<b>Requirements</b>
 <ul>
   <li>Eagle-200 energy gateway from Rainforest Automation.  Connects wirelessly (via zigbee) to consumer's smart electric meter.</li>
   <li>Device that can run Python. (PC, Linux system, Raspberry Pi)</li>
 </ul>
-Configuration (assumes Raspberry Pi)
+<b>Configuration (assumes Raspberry Pi)</b>
 <ul>
   <li>Create directory:  /home/pi/Desktop/Tesla
   <li>Create directory:  /home/pi/Desktop/Tesla/Logs
@@ -39,7 +39,7 @@ Configuration (assumes Raspberry Pi)
         </ul>
         </ul>
 
-First Use
+<b>First Use</b>
         
 The Tesla API requires authorization tokens in order to get information from the car as well as change car settings.  When the program is first run a web browser will be launched with fields to enter Tesla account credentials (email and password).  The resulting web page will have an error displayed.  However the URL in the browser needs to be copied in its entirety and pasted into the field presented by the software.  The resulting tokens will be written to a file.  This login sequence will only need to be done the first time the software is run.  
         
