@@ -220,7 +220,7 @@ while(1):
     at_home, tpi = tesla_plugged_in()
     rate = offpeak()
     currently_charging, current_amps, charge_level = charging_status()
-
+    print(time.ctime())
     print("At Home?  %s" % at_home)
     print("Car Plugged In?  %s" % tpi)
     print("Electricity Cost Rate:  %s" % rate)
