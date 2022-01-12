@@ -23,8 +23,8 @@ Configuration (assumes Raspberry Pi)
   <li>Make necessary changes to Suncatcher source:
     <ul>
       <li>Line 14:  Enter email address for Tesla account that contains car to be charged using Suncatcher.
-      <li>Line 52:  Enter local IP address for Eagle-200.
-      <li>Line 54:  Enter 32-character authorization token for Eagle-200. The token is created by encoding <6 character cloudID>;<16 character install code> to Base64.  (**IMPORTANT**:  Note semi-colon between cloudID and install code.)  These two values are found on the back of the Eagle-200 device.  This encoder is one that the author has used:  https://www.base64encode.org/
+      <li>Line 51:  Enter local IP address for Eagle-200.
+      <li>Line 53:  Enter 32-character authorization token for Eagle-200. The token is created by encoding <6 character cloudID>;<16 character install code> to Base64.  (**IMPORTANT**:  Note semi-colon between cloudID and install code.)  These two values are found on the back of the Eagle-200 device.  This encoder is one that the author has used:  https://www.base64encode.org/
       <li>Line 119:  Solaredge Inverter API key.  This can be obtained from Solaredge or your solar panel installer.
       <li>Line 120:  Solaredge Site ID:  This can be found in your Solaredge account.
       <li>Line 175:  Minimum car battery % Suncatcher should charge to at night - using electricity from the grid.
