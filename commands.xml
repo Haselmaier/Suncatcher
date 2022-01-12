@@ -1,0 +1,17 @@
+<Command>
+ <Format>JSON</Format>
+ <Name>device_query</Name>
+ <DeviceDetails>
+ <HardwareAddress>0x00239b0040074822</HardwareAddress>
+ </DeviceDetails>
+ <Components>
+ <Component>
+ <Name>Main</Name>
+ <Variables>
+ <Variable>
+ <Name>zigbee:InstantaneousDemand</Name>
+ </Variable>
+ </Variables>
+ </Component>
+ </Components>
+</Command>
