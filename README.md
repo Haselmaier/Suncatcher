@@ -39,8 +39,7 @@
         </ul>
         </ul>
 
-<b>First Use</b>
-        
+<b>First Use</b>     
 The Tesla API requires authorization tokens in order to get information from the car as well as change car settings.  When the program is first run a web browser will be launched with fields to enter Tesla account credentials (email and password).  The resulting web page will have an error displayed.  However the URL in the browser needs to be copied in its entirety and pasted into the field presented by the software.  The resulting tokens will be written to a file.  This login sequence will only need to be done the first time the software is run.  
         
     
