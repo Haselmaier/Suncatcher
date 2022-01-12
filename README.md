@@ -1,6 +1,6 @@
 # Suncatcher
 
-Capabilities Summary
+<b>Capabilities Summary</b>
 <ul>
   <li>During the day Suncatcher (on a 10 min interval) 1/ determines if electricty is being pulled from the grid (consumption greater than current solar production) or being pushed to the grid (current solar production is greater than electricity consumption).
   <li>Suncatcher adjusts the Tesla charging rate based on how much electricity is being pushed to or pulled from the grid - with the goal being to have all solar output either being consumed by the home or sent to the car.  When electricity is being pulled from the grid the car charging rate is reduced.  When electricity is being sent to the grid the car charging rate is increased. 
