@@ -253,7 +253,7 @@ while(1):
                 new_amps = 0
                 solar()
                 write_log()
-        elif current_meter_reading < pull_threshold:
+        elif current_meter_reading < pull_threshold and charge_level <= max_day_battery_level:
             if currently_charging == "Charging":
                 print("\nResult:  Solar panel output greater than current electricty consumption.  Car is charging.  Increasing car charge rate.")
                 print("         New amp setting for car charging:  %s Amps\n\n" % new_amps)
