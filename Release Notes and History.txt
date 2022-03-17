@@ -2,6 +2,10 @@
 Suncatcher Release Notes / History
 ==================================
 
+v2.0 - Released Mar 17, 2022
+   *  Rearchitected to increase efficiency.  (Reduced car polling frequency in some circumstances - as polling alone can drain car battery.)
+   *  Bug fixes to resolve some issues in misc situations.
+
 v1.2 - Released Jan 17, 2022
    *  Bug Fix:  Charging away from home is not shut down by Suncatcher.
    *  At night, after min night charge is reached, polling time has been extended to 45 mins - to reduce overnight battery drain.
