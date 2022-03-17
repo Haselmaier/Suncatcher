@@ -25,7 +25,7 @@
     <ul>
       <li>Line 13:  Enter email address for Tesla account that contains car to be charged using Suncatcher.
       <li>Line 50:  Enter local IP address for Eagle-200.
-      <li>Line 52:  Enter 32-character authorization token for Eagle-200. The token is created by encoding <6 character cloudID>;<16 character install code> to Base64.  (**IMPORTANT**:  Note semi-colon between cloudID and install code.)  These two values are found on the back of the Eagle-200 device.  This encoder is one that the author has used:  https://www.base64encode.org/  Additional Note:  I have found some Eagle-200s don't like having a ; between the cloudID and install code.  An alternative way to generate the authorization token is use the Advanced REST Client.  Entering Username & Password will generate the correct authorization token.
+      <li>Line 52:  Enter 32-character authorization token for Eagle-200. The most reliable way to generate the token is using the Advanced REST Client.  Enter Eagle-2-- cloudID as the username and its install code as the password.  The REST Client will generate the token - which can be entered into the Suncatcher code. 
       <li>Line 117:  Solaredge Inverter API key.  This can be obtained from Solaredge or your solar panel installer.
       <li>Line 118:  Solaredge Site ID:  This can be found in your Solaredge account.
       <li>Line 159:  Adjust location where logs are to be written as desired.
